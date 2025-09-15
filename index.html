@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah & James - Wedding Celebration</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal"></button>
+            <img class="modal-image" id="modalImage" src="" alt="Wedding photo expanded view">
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <span>Sarah & James</span>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#gallery">Galleries</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </ul>
+            
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sarah & James</h1>
+            <p class="subtitle">Together Forever</p>
+            <p class="wedding-date">Married June 15, 2024</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Pinterest">Pinterest</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section class="story-section animate" id="story">
+            <h2>Our Story</h2>
+            <p>We first met on a rainy Tuesday afternoon at a small coffee shop downtown. What started as a chance encounter over spilled coffee turned into hours of conversation, laughter, and an instant connection that neither of us could ignore.</p>
+            <p>Three years later, James proposed during a sunset walk on the same street where we first met. Now we're celebrating our beautiful journey together as husband and wife.</p>
+        </section>
+        
+        <div class="hero-image">
+            <div class="hero-image-slider">
+                <div class="hero-image-slide active" style="background-image: url('/images/story1.jpeg');"></div>
+                <div class="hero-image-slide" style="background-image: url('/images/story2.jpeg');"></div>
+                <div class="hero-image-slide" style="background-image: url('/images/story3.jpg');"></div>
+                <div class="hero-image-slide" style="background-image: url('/images/story4.jpg');"></div>
+                <div class="hero-image-slide" style="background-image: url('/images/story2.jpeg');"></div>
+            </div>
+            <div class="overlay-text">
+                Our love story begins
+                <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Indoor Decoration Gallery -->
+    <section class="gallery-section scroll-animate" id="gallery">
+        <h2 class="scroll-animate">Indoor Decorations</h2>
+        <p class="gallery-description scroll-animate">
+            Our reception venue was transformed into an elegant wonderland with luxurious floral arrangements, warm candlelit ambiance, and sophisticated table settings. Every detail was carefully chosen to create the perfect romantic atmosphere for our celebration.
+        </p>
+        <div class="indoor-gallery">
+            <div class="gallery-item scroll-animate" data-image="/images/indoor1.png" style="background-image: url('/images/indoor1.png');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor2.jpeg" style="background-image: url('/images/indoor2.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor2.jpeg" style="background-image: url('/images/indoor2.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor2.jpeg" style="background-image: url('/images/indoor2.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor3.jpeg" style="background-image: url('/images/indoor3.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor3.jpeg" style="background-image: url('/images/indoor3.jpeg');"></div>
+        </div>
+    </section>
+
+    <!-- Outdoor Decoration Gallery -->
+    <section class="gallery-section scroll-animate">
+        <h2 class="scroll-animate">Outdoor Decorations</h2>
+        <p class="gallery-description scroll-animate">
+            Our outdoor ceremony took place in a beautiful garden setting surrounded by natural beauty. We chose organic floral arrangements and rustic elements that complemented the natural landscape, creating a magical outdoor celebration under the open sky.
+        </p>
+        <div class="outdoor-gallery">
+            <div class="gallery-item scroll-animate" data-image="/images/indoor3.jpeg" style="background-image: url('/images/indoor2.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor3.jpeg" style="background-image: url('/images/indoor3.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor3.jpeg" style="background-image: url('/images/indoor3.jpeg');"></div>
+            <div class="gallery-item scroll-animate" data-image="/images/indoor2.jpeg" style="background-image: url('/images/indoor2.jpeg');"></div>
+            <div class="gallery-item scroll-animate" 
+       data-image="/images/indoor2.jpeg" 
+       style="background-image: url('/images/indoor2.jpeg');"></div>
+       
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/indoor2.jpeg" 
+       style="background-image: url('/images/indoor2.jpeg');"></div>
+    </section>
+
+    <!-- Our Memories Gallery -->
+    <section class="gallery-section scroll-animate">
+        <h2 class="scroll-animate">Our Memories</h2>
+        <p class="gallery-description scroll-animate">
+            From our first coffee shop meeting to weekend adventures and quiet moments together, these photos captured the journey that led us to our beautiful wedding day. Each memory represents a step closer to our forever, and we're so grateful to have shared these special moments.
+        </p>
+        <div class="couple-gallery">
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/memmories.jpeg" 
+       style="background-image: url('/images/memmories.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/mem2.jpeg" 
+       style="background-image: url('/images/mem2.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/mem3.jpeg" 
+       style="background-image: url('/images/mem3.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/mem2.jpeg" 
+       style="background-image: url('/images/mem2.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/mem2.jpeg" 
+       style="background-image: url('/images/mem2.jpeg');"></div>
+</div>
+
+    </section>
+
+    <!-- Ceremony Moments Gallery -->
+    <section class="gallery-section scroll-animate">
+        <h2 class="scroll-animate">Ceremony Moments</h2>
+        <p class="gallery-description scroll-animate">
+            These precious moments from our ceremony captured the joy, emotion, and love we shared on our wedding day. From walking down the aisle to our first kiss as a married couple, each photograph tells the story of our commitment and the beginning of our new life together.
+        </p>
+        <div class="ceremony-gallery">
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/cerem5.jpeg" 
+       style="background-image: url('/images/cerem5.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/cerem1.jpeg" 
+       style="background-image: url('/images/cerem1.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/cerem4.jpeg" 
+       style="background-image: url('/images/cerem4.jpeg');"></div>
+
+  <div class="gallery-item scroll-animate" 
+       data-image="/images/cerem2.jpeg" 
+       style="background-image: url('/images/cerem2.jpeg');"></div>
+</div>
+
+    </section>
+
+    <!-- Wedding Details -->
+            <section class="wedding-details scroll-animate" id="details">
+        <h2 class="scroll-animate">Wedding Memories</h2>
+        <div class="details-grid">
+            <div class="detail-card scroll-animate">
+            <h3>Our Ceremony</h3>
+            <p><strong>Date:</strong> June 15, 2024</p>
+            <p><strong>Time:</strong> 4:00 PM</p>
+            <p><strong>Location:</strong> San Agustin Church, Intramuros<br>Gen. Luna St, Intramuros, Manila, Philippines</p>
+            <p>A perfect sunny afternoon inside the historic walls of Intramuros, surrounded by family and friends.</p>
+            </div>
+
+            <div class="detail-card scroll-animate">
+            <h3>Our Reception</h3>
+            <p><strong>Time:</strong> 6:00 PM - 11:00 PM</p>
+            <p><strong>Location:</strong> The Manila Hotel — Grand Ballroom<br>One Rizal Park, Ermita, Manila, Philippines</p>
+            <p><strong>Dinner:</strong> Served at 7:00 PM</p>
+            <p>An evening of dancing and laughter with views toward Manila Bay and the city lights.</p>
+            </div>
+
+            <div class="detail-card scroll-animate">
+            <h3>Our Honeymoon</h3>
+            <p><strong>Destination:</strong> El Nido, Palawan</p>
+            <p><strong>Duration:</strong> 10 magical days</p>
+            <p><strong>Highlights:</strong> Island-hopping, limestone lagoons, and sunset dinners by the beach.</p>
+            <p>The perfect start to our married life amid Palawan’s crystal-clear waters and dramatic cliffs.</p>
+            </div>
+        </div>
+        </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <h3>Wedding Landing Page Template</h3>
+        <p>This is our wedding landing page example</p>
+        <p style="margin-top: 1rem;">Thank you for viewing our template!</p>
+        <p style="margin-top: 2rem;">For inquiries about this template, please contact:</p>
+        <p>Email: veloradigitalservices@gmail.com | Phone: 09512136957</p>
+        <p style="margin-top: 1rem;">&copy; 2025 Wedding Landing Page Template.</p>
+    </footer>
+
+    <script src="js/main.js">
+       
+    </script>
+</body>
+</html>
